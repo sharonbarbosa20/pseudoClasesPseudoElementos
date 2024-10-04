@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+.bordear {
+  border: 2px solid rgb(155, 13, 221);
+}
+
+.soyBoton {
+    color: blueviolet;
+    padding: 10px;
+    font-size: 30px;
+}
+
+a:link {
+    color: rgb(220, 50, 243);
+  } 
+  a:visited {
+    color: purple;
+  } 
+  a:hover {
+    background: rgb(220, 143, 255);
+  }  
+  a:active {
+    color: rgb(250, 167, 222);
+  } 
+
+  select {
+    margin: 8px;
+  }
+  
+   input:checked + label {
+    color: rgb(32, 126, 126);
+  }
+  
+   input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px rgb(49, 145, 235);
+  }
+  
+   input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px rgb(14, 185, 228);
+  }
+  
+  option:checked {
+    box-shadow: 0 0 0 3px lime;
+    color: rgb(21, 129, 39);
+  }
+
+  input:default + label {
+    color: darkblue;
+  }
+  
+  :dir(ltr) {
+    background-color: antiquewhite;
+  }
+  
+  :dir(rtl) {
+    background-color: powderblue;
+  }
+  
+  input[type="text"]:disabled {
+    background: #ccc;
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(98, 138, 247);
+    height: 80px;
+    width: 80px;
+  }
+  
+  .box:empty {
+    background: lime;
+  }
+
+  input:enabled {
+    color: rgb(245, 113, 25);
+  }
+  
+  input:disabled {
+    color: #aaa;
+  }
+
+  @page :first {
+    margin-left: 50%;
+    margin-top: 50%;
+  }
+  
+  p {
+    page-break-after: always;
+  }
+
+  p:first-child {
+    color: rgb(255, 0, 0);
+    background-color: black;
+    padding: 5px;
+  }
+  
+  p:first-of-type {
+    color: rgb(58, 187, 19);
+    font-style: italic;
+  }
+  
+  #fullscreen:fullscreen {
+    padding: 42px;
+    background-color: pink;
+    border: 2px solid #f00;
+    font-size: 200%;
+  }
+  
+  #fullscreen:fullscreen > h1 {
+    color: red;
+  }
+  
+  #fullscreen:fullscreen > p {
+    color: rgb(94, 3, 3);
+  }
+  
+  #fullscreen:fullscreen > button {
+    display: none;
+  }
+
+  .red-input:focus {
+    background: rgb(0, 255, 34);
+    color: red;
+  }
+  
+  .blue-input:focus {
+    background: yellow;
+    color: rgb(3, 3, 223);
+  }
+  
+  
+  
+  
+  
+
+  
+  
